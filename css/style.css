@@ -41,7 +41,7 @@ ul {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
 }
 
 /* header */
@@ -246,11 +246,19 @@ ul {
     color: #2e2f42;
     text-transform: capitalize;
     margin: 0 auto 72px;
+    margin-top: 120px;
 }
 
 .our-team-list {
     background-color: #FFFFFF;
     margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 32px 0;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .desc-our-team {
@@ -260,7 +268,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding: 0 72px 0px 72px;
+    padding: 0;
     margin-top: 32px;
     margin-bottom: 8px;
 }
@@ -271,7 +279,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding: 8px 44px 0px 44px;
+    padding: 0;
     margin-bottom: 32px;
 }
 
@@ -285,6 +293,27 @@ ul {
     color: #2e2f42;
     line-height: 1.11;
     text-transform: capitalize;
+    margin: 120px 0;
+}
+
+.our-portfolio-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 72px 0 120px;
+}
+
+.our-portfolio-list {
+    border: 1px solid #e7e9fc;
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 360px;
+    gap: 8px;
 }
 
 .desc-our-portfolio {
@@ -293,6 +322,10 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .list-desc {
@@ -300,6 +333,9 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 32px;
 }
 
 /* Footer */
@@ -315,6 +351,20 @@ ul {
     color: #4d5ae5;
     text-decoration: none;
     line-height: 1.17;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    margin-bottom: 16px;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+    max-width: 264px; 
+    width: 264px;
 }
 
 .logo-color-footer {
@@ -328,4 +378,8 @@ ul {
     color: #f4f4fd;
     font-size: 16px;
     text-transform: lowercase;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 264px;
+    margin-bottom: 100px;
 }
