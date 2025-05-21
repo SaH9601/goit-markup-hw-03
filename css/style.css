@@ -235,7 +235,6 @@ ul {
 
 .our-team-section {
     background-color: #f4f4fd;
-    ;
 }
 
 .our-team-title {
@@ -246,10 +245,12 @@ ul {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin: 0 auto 72px;
 }
 
 .our-team-list {
     background-color: #FFFFFF;
+    margin-bottom: 120px;
 }
 
 .desc-our-team {
@@ -259,6 +260,9 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding: 0 72px 0px 72px;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .job-title {
@@ -267,6 +271,8 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding: 8px 44px 0px 44px;
+    margin-bottom: 32px;
 }
 
 /* Section 3 */
