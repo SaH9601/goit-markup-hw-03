@@ -31,7 +31,6 @@ ul {
 
 .container ul {
     display: flex;
-    padding: 0;
     margin: 0;
     list-style: none;
     gap: 24px;
@@ -89,6 +88,10 @@ ul {
     flex-direction: row;
 }
 
+.nav-list {
+    padding: 24px 0;
+}
+
 .contacts-list {
     gap: 40px;
 }
@@ -99,7 +102,7 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0;
+    
     gap: 40px;
 }
 
